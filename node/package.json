@@ -1,0 +1,20 @@
+{
+  "name": "08-9-26nem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+     "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "inquirer": "^14.2.2",
+    "nodemon": "^3.1.14",
+    "qr-image": "^3.2.0"
+  }
+}

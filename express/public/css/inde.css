@@ -1,0 +1,7 @@
+ ul{
+            height: 50px;
+            background-color: blue;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }

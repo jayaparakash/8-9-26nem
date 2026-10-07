@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <ul>
+        <li><a href="/">ejs</a></li>
+        <li><a href="/admin/productsdata">admin-products</a></li>
+    </ul>
+
+    <%  if(pros.length>0){ %>
+        <div>
+            <% for(let products of pros){ %>
+                <h2>products title: <%= products.name %></h2>
+           <% } %>
+        </div>
+     <%   }else{ %>
+        <h2>No products add....! </h2>
+       <% } %>
+</body>
+</html>
