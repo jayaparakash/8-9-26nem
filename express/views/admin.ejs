@@ -12,11 +12,37 @@
         <li><a href="/">shop</a></li>
         <li><a href="/admin/productsdata">admin-products</a></li>
     </ul>
-        <h1>This is adminpage </h1>
-        <form action="/admin/product" method="post">
-        <input type="text" name="name">
-        <button type="submit">submit-ejs</button>
-    </form>
-    </center>
+       
+<form action="/admin/product" method="POST">
+    <div>
+        <label for="name">Product Name:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+<!-- 
+    <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+    </div> -->
+
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+    </div>
+
+    <div>
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" id="mobile" name="mobile" required>
+    </div>
+
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+
+    <button type="submit">Submit</button>
+</form>
+
+    
+ 
 </body>
 </html>

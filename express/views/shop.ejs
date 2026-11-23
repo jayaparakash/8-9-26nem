@@ -12,10 +12,12 @@
         <li><a href="/admin/productsdata">admin-products</a></li>
     </ul>
 
-    <%  if(pros.length>0){ %>
+    <%  if(pros &&  pros.length>0){ %>
         <div>
             <% for(let products of pros){ %>
-                <h2>products title: <%= products.name %></h2>
+                <h2>products title: <%=products.name %></h2>
+                <p>Mobile: <%=products.mobile%></p>
+                <p>Email: <%=products.email%></p>
            <% } %>
         </div>
      <%   }else{ %>

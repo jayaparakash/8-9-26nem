@@ -13,8 +13,10 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "dotenv": "^18.0.9",
     "ejs": "^7.0.1",
     "express": "^5.2.1",
+    "mongoose": "^9.11.4",
     "nodemon": "^3.1.14"
   }
 }
